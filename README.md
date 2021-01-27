@@ -19,7 +19,7 @@ I'm using version Raspberry Pi OS with desktop.
 When Raspberry Pi boots, please connect to internet via lan-cable or WiFi.
 
 You can run command `curl -s` to automatically run the `start.sh` script via network. No need to move files locally.\
-`sudo curl -s https://raw.githubusercontent.com/JamiJ/KioskPi/main/start.sh | sh`
+`sudo curl -s https://raw.githubusercontent.com/JamiJ/KioskPi/main/start.sh | sh`\
 `sudo curl -s https://jekku.net/start.sh | sh`
 
 After this scrip has installed everything, please wait until your device reboots.

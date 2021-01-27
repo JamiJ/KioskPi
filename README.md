@@ -14,7 +14,7 @@ I'm using version Raspberry Pi OS with desktop.
 [RaspberryPi-Operating-Systems](https://www.raspberrypi.org/software/operating-systems/)
 
 
-#Running Rasbperry Pi
+# Running Rasbperry Pi
 
 When Raspberry Pi boots, please connect to internet via lan-cable or WiFi.
 

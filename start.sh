@@ -10,7 +10,9 @@ sudo apt-get install -y xdotool unclutter sed
 echo
 echo
 echo
-echo
+sleep 15
+echo "Install & Upgrade done" 
+echo "Starting to download Kiosk"
 echo
 echo "Downloading needed files from the server"
 sleep 1

@@ -1,13 +1,22 @@
 # KioskPi
 Automatically configure Raspberry Pi OS to Kiosk mode
 
-You will need to have installed Raspberry Pi OS to sc-card. You can choose the version for your needs.
-I'm using version Raspberry Pi OS with desktop.
+Needed equipment:
+* Raspberry Pi 2/3/4
+* SD-Card (Recommended 8GB)
+* Power supply for Raspberry Pi
+* Network (LAN / WIFI)
+* Monitor 
+* HDMI Cable
 
+You will need to have Raspberry Pi OS installed/migrated to SD-card. You can choose the version for your needs.\
+I'm using version Raspberry Pi OS with desktop.
 [RaspberryPi-Operating-Systems](https://www.raspberrypi.org/software/operating-systems/)
 
 
-After installing please connect to internet via lan-cable or WiFi.
+#Running Rasbperry Pi
+
+When Raspberry Pi boots, please connect to internet via lan-cable or WiFi.
 
 You can run command `<curl -s>` to automatically run the `<start.sh`> script via network. No need to move files locally.\
 `<sudo curl -s https://raw.githubusercontent.com/JamiJ/KioskPi/main/start.sh | sh>`

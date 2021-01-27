@@ -18,8 +18,8 @@ I'm using version Raspberry Pi OS with desktop.
 
 When Raspberry Pi boots, please connect to internet via lan-cable or WiFi.
 
-You can run command `<curl -s>` to automatically run the `<start.sh>` script via network. No need to move files locally.\
-`<sudo curl -s https://raw.githubusercontent.com/JamiJ/KioskPi/main/start.sh | sh>`
+You can run command `curl -s` to automatically run the `start.sh` script via network. No need to move files locally.\
+`sudo curl -s https://raw.githubusercontent.com/JamiJ/KioskPi/main/start.sh | sh`
 
 After this scrip has installed everything, please wait until your device reboots.
 When rebooted you can see the Kiosk mode has started, but you need to modify the link that it wants to connect to.
@@ -36,6 +36,6 @@ You are able to see settings menu. Please choose Autologin for Desktop:
 * Exit menu with `<Esc>`
 
 Change link to the kiosk.sh file
-* --kiosk `<INSERT-LINK-HERE-REPLACE-THIS>`
+* --kiosk `INSERT-LINK-HERE-REPLACE-THIS`
 
 Finally reboot, and your kiosk should show what you want!

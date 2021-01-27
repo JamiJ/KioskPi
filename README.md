@@ -36,6 +36,6 @@ You are able to see settings menu. Please choose Autologin for Desktop:
 * Exit menu with `<Esc>`
 
 Change link to the kiosk.sh file
-* `<--kiosk INSERT-LINK-HERE-REPLACE-THIS>`
+* --kiosk `<INSERT-LINK-HERE-REPLACE-THIS>`
 
 Finally reboot, and your kiosk should show what you want!

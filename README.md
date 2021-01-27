@@ -26,15 +26,15 @@ After this scrip has installed everything, please wait until your device reboots
 When rebooted you can see the Kiosk mode has started, but you need to modify the link that it wants to connect to.
 
 Close Kiosk mode with:
-* `<ctrl + alt + f1>`
-* `<sudo systemctl stop kiosk>`
-* `<ctrl + alt + f7>`
+* `ctrl + alt + f1`
+* `sudo systemctl stop kiosk`
+* `ctrl + alt + f7`
 
 You are able to see settings menu. Please choose Autologin for Desktop:
-* `<1. System option>`
-* `<S5 Boot / Auto Login>`
-* `<B4 Desktop Autologin>`
-* Exit menu with `<Esc>`
+* `1. System option`
+* `S5 Boot / Auto Login`
+* `B4 Desktop Autologin`
+* Exit menu with `Esc`
 
 Change link to the kiosk.sh file
 * --kiosk `INSERT-LINK-HERE-REPLACE-THIS`

@@ -36,7 +36,7 @@ You are able to see settings menu. Please choose Autologin for Desktop:
 * `B4 Desktop Autologin`
 * Exit menu with `Esc`
 
-Change link to the kiosk.sh file
+Change link to the kiosk.sh file located at /home/pi/kiosk.sh
 * --kiosk `INSERT-LINK-HERE-REPLACE-THIS`
 
 Finally reboot, and your kiosk should show what you want!

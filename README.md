@@ -40,3 +40,14 @@ Change link to the kiosk.sh file located at /home/pi/kiosk.sh
 * --kiosk `INSERT-LINK-HERE-REPLACE-THIS`
 
 Finally reboot, and your kiosk should show what you want!
+
+# Updates
+
+You are able to update your crontab for more reboots with `reboot.sh` script
+`sudo curl -s https://raw.githubusercontent.com/JamiJ/KioskPi/main/reboot.sh | sh`\
+
+To update system
+* `ctrl + alt + f1`
+* `sudo apt-get update`
+* `sudo apt-get upgrage -y`
+* `reboot`

@@ -22,6 +22,7 @@ echo "Downloading needed files from the server"
 sleep 1
 wget -O kiosk.service https://raw.githubusercontent.com/JamiJ/KioskPi/main/kiosk.service
 wget -O kiosk.sh https://raw.githubusercontent.com/JamiJ/KioskPi/main/kiosk.sh
+wget -O config.txt https://raw.githubusercontent.com/JamiJ/KioskPi/main/config.txt
 echo "Download completed!"
 sleep 2
 echo
@@ -36,6 +37,8 @@ sleep 1
 crontab -l > rebootcron
 #Echo new cron into cron file
 echo @midnight reboot >> rebootcron
+echo 30 5 * * * reboot >> rebootcron
+echo 0 16 * * * reboot >> rebootcron
 #Install new cron file
 crontab rebootcron
 rm rebootcron

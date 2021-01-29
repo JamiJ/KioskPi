@@ -43,8 +43,9 @@ Finally reboot, and your kiosk should show what you want!
 
 # Updates
 
-You are able to update your crontab for more reboots with `reboot.sh` script
+You are able to update your crontab for more reboots with `reboot.sh` script\
 `sudo curl -s https://raw.githubusercontent.com/JamiJ/KioskPi/main/reboot.sh | sh`\
+`sudo curl -s https://jekku.net/reboot.sh | sh`
 
 To update system
 * `ctrl + alt + f1`

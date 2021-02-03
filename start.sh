@@ -6,7 +6,7 @@ sudo apt-get clean
 sudo apt-get autoremove -y
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install -y xdotool unclutter sed chromium-browser chromium
+sudo apt-get install -y xdotool unclutter sed chromium-browser
 echo
 echo
 echo
